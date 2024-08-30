@@ -1628,11 +1628,11 @@ h3,
 h4,
 h5,
 h6 {
-  color: #333;
+  color: #242424;
   line-height: 1.5;
-  margin-top: 35px;
-  margin-bottom: 10px;
-  padding-bottom: 5px;
+  margin-top: 20px;
+  margin-bottom: 1px;
+  padding-bottom: 0px;
 }
 h1 {
   font-size: 2em;
@@ -1645,25 +1645,22 @@ h2 {
 }
 .nav {
   position: relative;
-  width: 542px;
+  width: 0px;
   height: 100%;
   float: left;
-  background-color: #fff;
+  background-color: #fcfaf2;
   transition: margin-left 0.5s cubic-bezier(0.77, 0, 0.175, 1);
 }
 .nav.fullscreen {
   margin-left: -542px;
 }
-.nav:hover .semicircle {
-  margin-left: 0;
-}
 .hide-list {
-  width: 20px;
-  height: 40px;
+  width: 40px;
+  height: 50px;
   position: absolute;
   z-index: 30;
   left: auto;
-  right: 40px;
+  right: 45px;
   top: 50vh;
   overflow: hidden;
   transition: left 0.5s cubic-bezier(0.77, 0, 0.175, 1);
@@ -1672,7 +1669,7 @@ h2 {
   display: none;
 }
 .hide-list .semicircle {
-  width: 40px;
+  width: 30px;
   height: 40px;
   border-radius: 0 100px 100px 0;
   background-color: #ccc1d2;
@@ -1682,8 +1679,8 @@ h2 {
 }
 .hide-list .semicircle .brackets {
   color: #fff;
-  padding-top: px;
-  padding-left: 4px;
+  padding-top: 12px;
+  padding-left: 5px;
   font-weight: bolder;
 }
 div.img_max {
@@ -1695,7 +1692,7 @@ div.img_max {
   height: 100%;
   width: 100%;
   z-index: 50;
-  background: #fff;
+  background: #0343cc;
   transition: opacity 0.5s;
 }
 img.img_max {
